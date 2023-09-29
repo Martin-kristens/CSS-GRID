@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&display=swap");
+main {
+  height: 100%;
+}
+main .showcase {
+  border: 1px solid #FFFFFF;
+}
+main .showcase .background-lines {
+  display: none;
+}
+@media (min-width: 1200px) {
+  main .showcase .background-lines {
+    display: flex;
+  }
+}
+main .showcase .container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 120px 0 70px;
+}
+main .showcase .container .showcase-contact-info {
+  display: flex;
+  justify-content: center;
+}
+main .showcase .container p {
+  font-size: 1.1rem;
+  margin: 5px;
+}
+@media (min-width: 768px) {
+  main .showcase .container p {
+    font-size: 1.5rem;
+  }
+}
+main .showcase .container p a {
+  text-decoration: none;
+  color: #191919;
+}
+main .showcase .container h2 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  font-family: "DM Sans", sans-serif;
+}
+@media (min-width: 768px) {
+  main .showcase .container h2 {
+    font-size: 4.5rem;
+  }
+}
+main .contact-us .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 20px 0 20px;
+}
+@media (min-width: 768px) {
+  main .contact-us .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+@media (min-width: 768px) {
+  main .contact-us .container .contact-us-box {
+    border: 1px solid black;
+    width: 400px;
+    height: auto;
+    padding: 20px 10px 20px 20px;
+  }
+}
+@media (min-width: 768px) {
+  main .contact-us .container .contact-us-box .i-h5 {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+}
+main .contact-us .container .contact-us-box i {
+  font-size: 1.5rem;
+}
+main .contact-us .container .contact-us-box h5 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding-left: 7px;
+}
+main .contact-us .container .contact-us-box p {
+  font-size: 1.1rem;
+  text-align: left;
+  padding-left: 10px;
+}
+@media (min-width: 768px) {
+  main .contact-us .container .contact-us-box p {
+    justify-content: center;
+    padding-left: 30px;
+    line-height: 1.1rem;
+  }
+}
+main .leave-message-box .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #F0EFE9;
+  margin: 20px auto 50px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+main .leave-message-box .container h3 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  font-family: "DM Sans", sans-serif;
+  padding: 50px 0 20px;
+}
+@media (min-width: 768px) {
+  main .leave-message-box .container h3 {
+    font-size: 4rem;
+    max-width: 400px;
+  }
+}
+main .leave-message-box .container form .leave-message-boxes {
+  margin-bottom: 10px;
+  justify-content: center;
+}
+main .leave-message-box .container form .leave-message-boxes input {
+  font-size: 1.2rem;
+  width: 90%;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: none;
+}
+@media (min-width: 768px) {
+  main .leave-message-box .container form .leave-message-boxes input {
+    width: 100%;
+  }
+}
+main .leave-message-box .container form .leave-message-boxes textarea {
+  border-radius: 15px;
+  width: 90%;
+  font-size: 1.2rem;
+  padding-left: 10px;
+  align-items: center;
+  border: none;
+}
+@media (min-width: 768px) {
+  main .leave-message-box .container form .leave-message-boxes textarea {
+    width: 100%;
+  }
+}
+main .leave-message-box .container form .btn-yellow {
+  width: 90%;
+  height: auto;
+  font-size: 1.2rem;
+  border-radius: 15px;
+}
+@media (min-width: 768px) {
+  main .leave-message-box .container form .btn-yellow {
+    width: 100%;
+  }
+}
+main .map {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .map img {
+  width: 100%;
+  height: auto;
+}

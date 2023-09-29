@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://kit.fontawesome.com/41c8b474e2.css" crossorigin="anonymous">
   <script defer src="https://kit.fontawesome.com/41c8b474e2.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
   <title>Crito Agency Service</title>
 </head>
 <body>
@@ -55,14 +56,81 @@
     </header>
 
     <main>
-      
-    </main>
+      <!-- showcase section -->
+        <section class="showcase">
+          <img class="background-lines" src="image/background-lines-showcase.svg" alt="">
+          <div class="container">
+          <div class="showcase-contact-info">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="contact.html">Contact</a></p>
+          </div>         
+          <h2>Let´s Connect</h2>
+        </div>
+        </section>  
 
+      <!-- contact us section -->
+
+      <section class="contact-us">
+
+        <div class="container">
+          <div class="contact-us-box">
+            <div class="i-h5">
+              <i class="fa-solid fa-location-dot"></i>
+              <h5>Visit us</h5>
+            </div>            
+            <p>Sveavägen 31</p>
+            <p>111 34 STOCKHOLM</p>
+          </div>
+          <div class="contact-us-box">
+            <div class="i-h5">
+              <i class="fa-solid fa-phone"></i>
+              <h5>Call us</h5>
+            </div>           
+            <p>+46 (8) 121 470 50</p>
+            <p>+46 (8) 121 470 50</p>
+          </div>
+          <div class="contact-us-box">
+            <div class="i-h5">
+              <i class="fa-regular fa-envelope"></i>
+              <h5>Email us</h5>
+            </div>            
+            <p>info@crito.com</p>
+            <p>support@crito.com</p>
+            <p></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- leave a message section -->
+
+        <section class="leave-message-box">
+          <div class="container">
+          <h3>Leave us a message for any information</h3>
+          <form method="post">
+            <div class="leave-message-boxes">
+              <input tabindex="1" type="text" id="name" name="name" placeholder="Name*" title="name">
+            </div>
+            <div class="leave-message-boxes">
+              <input tabindex="2" type="text" id="email" name="email" placeholder="Email*" title="email">
+            </div>
+           <div class="leave-message-boxes">
+             <textarea tabindex="3" rows="5" cols="80" id="message" placeholder="Your Message*"></textarea>
+            </div>
+
+            <input class="btn-yellow" type="button" value="Send Message">
+          </form>
+        </div>
+        </section>      
+
+      <div class="map">
+        <img src="image/map.png" alt="a picture of a map">
+      </div>
+    </main>
+    
     <footer>
       <section class="footer-top">
         <img class="background-lines-sumup-information" src="image/background-lines-sumup-information.svg" alt="">
         <div class="container">
-
           <div class="footer-top-left">
             <ul>
               <div class="footer-top-left-img">
@@ -73,39 +141,42 @@
                 Placeat obcaecati voluptas voluptates! 
                 Voluptates laborum nam ratione minus necessitatibus, iure praesentium.</p></li>
             </ul>
-            <ul>
-              <h3>Company</h3>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Works</a></li>
-              <li><a href="#">Career</a></li>
-            </ul>
-            <ul>
-              <h3>Help</h3>
-              <li><a href="#">Customer Support</a></li>
-              <li><a href="#">Delivery Details</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-            <ul>
-              <h3>Resources</h3>
-              <li><a href="#">Free eBooks</a></li>
-              <li><a href="#">Development Tutorial</a></li>
-              <li><a href="#">How to - Blog</a></li>
-              <li><a href="#">Youtube Playlist</a></li>
-            </ul>
-            <ul>
-              <h3>Link</h3>
-              <li><a href="#">Free eBooks</a></li>
-              <li><a href="#">Development Tutorial</a></li>
-              <li><a href="#">How to - Blog</a></li>
-              <li><a href="#">Youtube Playlist</a></li>
-            </ul>
           </div>
-          
-        </div>
+
+            <div class="footer-top-right">
+              <ul>
+                <h3>Company</h3>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">Career</a></li>
+              </ul>
+              <ul>
+                <h3>Help</h3>
+                <li><a href="#">Customer Support</a></li>
+                <li><a href="#">Delivery Details</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+              <ul>
+                <h3>Resources</h3>
+                <li><a href="#">Free eBooks</a></li>
+                <li><a href="#">Development Tutorial</a></li>
+                <li><a href="#">How to - Blog</a></li>
+                <li><a href="#">Youtube Playlist</a></li>
+              </ul>
+              <ul>
+                <h3>Link</h3>
+                <li><a href="#">Free eBooks</a></li>
+                <li><a href="#">Development Tutorial</a></li>
+                <li><a href="#">How to - Blog</a></li>
+                <li><a href="#">Youtube Playlist</a></li>
+              </ul>
+            </div>
+        </div>       
       </section> 
-    <div class="footer-bottom">
+
+    <section class="footer-bottom">
       <div class="container">
         <p>&copy;2023 Crito - Consulting Company Inc. All Rights Reserved.</p>
         <div class="socialmedia-bar">
@@ -115,9 +186,9 @@
           <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         </div>
       </div>
-    </div>
+    </section>
     </footer>
   </div>
-
+  
 </body>
 </html>
